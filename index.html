@@ -1,13 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <!-- Head Section -->
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dd</title>
-</head>
-<body>
-    <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iste expedita perferendis cumque nulla esse nemo cupiditate laboriosam deleniti! Impedit id numquam enim? Dolorem, accusamus. Doloribus eaque pariatur quia repudiandae sit provident porro tempore eligendi!
-    </div>
-</body>
+    <link href="src/output.css" rel="stylesheet">
+    <title>Responsive Cards</title>
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <header>
+      <nav class="bg-white shadow-lg">
+        <div class="container mx-auto px-4">
+          <div class="flex justify-between items-center py-4">
+            <!-- Menu Links -->
+            <div class="flex space-x-6">
+              <a href="https://anas1012.github.io" class="text-gray-600 hover:text-blue-500">Home</a>
+              <a href="https://anas1012.github.io" class="text-gray-600 hover:text-blue-500">Products</a>
+              <a href="about.html" class="text-gray-600 hover:text-blue-500">About</a>
+              <a href="contact.html"class="text-gray-600 hover:text-blue-500">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div class="container mx-auto px-4 mt-6">
+        <h1 class="font-extrabold text-xl">Set of 1</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <!-- Card 1 -->
+          <a href="product1.html" class="max-w-sm rounded overflow-hidden shadow-lg bg-white hover:shadow-xl transition-shadow">
+            <img class="w-full" src="https://media.istockphoto.com/id/1160316337/photo/tea-plantations.jpg?s=1024x1024&w=is&k=20&c=lhjl7laOK-lWMG-elegnZXQW5Sn-WL9_HKGqSwl9nyg=" alt="Product 1" loading="lazy">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Product 1</div>
+              <p class="text-gray-700 text-base">Click to see more images of this product.</p>
+            </div>
+          </a>
+
+          <!-- Card 2 -->
+          <a href="product2.html" class="max-w-sm rounded overflow-hidden shadow-lg bg-white hover:shadow-xl transition-shadow">
+            <img class="w-full" src="https://media.istockphoto.com/id/1160316337/photo/tea-plantations.jpg?s=1024x1024&w=is&k=20&c=lhjl7laOK-lWMG-elegnZXQW5Sn-WL9_HKGqSwl9nyg=" alt="Product 2" loading="lazy">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Product 2</div>
+              <p class="text-gray-700 text-base">Click to see more images of this product.</p>
+            </div>
+          </a>
+
+          <!-- Card 3 -->
+          <a href="product3.html" class="max-w-sm rounded overflow-hidden shadow-lg bg-white hover:shadow-xl transition-shadow">
+            <img class="w-full" src="https://media.istockphoto.com/id/1160316337/photo/tea-plantations.jpg?s=1024x1024&w=is&k=20&c=lhjl7laOK-lWMG-elegnZXQW5Sn-WL9_HKGqSwl9nyg=" alt="Product 3" loading="lazy">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2">Product 3</div>
+              <p class="text-gray-700 text-base">Click to see more images of this product.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>

@@ -29,12 +29,24 @@
     </nav>
   </header>
 
-  <!-- Search Bar -->
-  <div class="bg-white py-6">
-    <div class="container mx-auto px-6 flex justify-center">
-      <input id="searchBar" type="text" placeholder="Search products..." class="w-full max-w-md border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-400">
-    </div>
+ <!-- Search Bar -->
+<div class="bg-white py-6">
+  <div class="container mx-auto px-6 flex justify-center">
+      <div class="relative w-full max-w-md">
+          <input 
+              id="searchBar" 
+              type="text" 
+              placeholder="Search products..." 
+              class="w-full border border-gray-300 rounded-lg px-4 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              aria-label="Search products"
+          >
+          <svg class="absolute right-3 top-2.5 w-5 h-5 text-gray-400" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35m1.4-5.4a7 7 0 1 1-2.1-4.95 7 7 0 0 1 2.1 4.95z"/>
+          </svg>
+      </div>
   </div>
+</div>
+
 
   <!-- Main Content -->
   <main class="py-16">
@@ -591,3 +603,4 @@
 </body>
 
 </html>
+<script>
